@@ -1,4 +1,5 @@
 Variational Bayes Mixture of PCA
+
 This class computes a Mixture of Probabilistic Principal Component Analysers 
 from spatial point clouds with no point-to-point correspondances. If the
 point clouds represent shapes, the model generates clusters of shape
