@@ -3,7 +3,7 @@ This class computes a Mixture of Probabilistic Principal Component Analysers
 from spatial point clouds with no point-to-point correspondances. If the
 point clouds represent shapes, the model generates clusters of shape
 atlases, computing mean shape and modes of variations in each cluster using 
-a variatonal Bayesian inference approach.
+a variatonal Bayesian inference approach in MATLAB.
 
 The computed Lower Bound (LB) on the data likelihood can be used for automatic 
 model selection (i.e. unmber of clusters, modes of varations, etc).
