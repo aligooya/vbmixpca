@@ -35,16 +35,19 @@ x2 y2 z2
 .
 .
 .
+
 gmmFileName:          is an (optional) GMM file defining initialization. This can
-                       be empty (i.e. []). In that case, the algorithm will fit a GMM (with M
-                       centroids) to the available points (usually slow). You can save your GMM file using
-                       writeGmm method provided by the class for a later use.
+                      be empty (i.e. []). In that case, the algorithm will fit a GMM (with M
+                      centroids) to the available points (usually slow). You can save your GMM file using
+                      writeGmm method provided by the class for a later use.
  
 M:                    is the number of Gaussian centroids which define the GMM for each point
                       set. M*dim(points) determines the latent dimension of the MixPPCA sapce.
 
 L:                    is the number of varation modes in each PPCA cluster
+
 J:                    is the number of PPCA clusters
+
 nIter:                is the numer of iterations to solve the mixture. 
 
 After solve() step,  the vB object will store the variation modes, means of PPCA cluster,
