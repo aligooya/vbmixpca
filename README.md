@@ -31,9 +31,13 @@ where:
 pointSetsList:        is the name of a file listing the absolute paths to point sets. Each point
                        set file should define N_k x D (dimensional) points in rows: 
 x1 y1 z1
+
 x2 y2 z2
+
 .
+
 .
+
 .
 
 gmmFileName:          is an (optional) GMM file defining initialization. This can
